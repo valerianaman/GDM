@@ -11,3 +11,7 @@ USER jenkins
 
 ENV JAVA_OPTS="-Xmx8192m -Djenkins.install.runSetupWizard=false"
 ENV JENKINS_OPTS="--logfile=/var/log/jenkins/jenkins.log --webroot=/var/cache/jenkins/war"
+
+#installing plugins
+COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
+RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
