@@ -19,3 +19,7 @@ RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 #applying security
 COPY security.groovy /usr/share/jenkins/ref/init.groovy.d/security.groovy
 
+#adding Maven 353
+COPY hudson.tasks.Maven.xml /usr/share/jenkins/ref/hudson.tasks.Maven.xml
+COPY jenkins.mvn.GlobalMavenConfig.xml /usr/share/jenkins/ref/jenkins.mvn.GlobalMavenConfig.xml
+COPY tools /usr/share/jenkins/ref/tools

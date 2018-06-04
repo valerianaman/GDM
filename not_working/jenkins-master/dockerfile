@@ -1,5 +1,4 @@
 FROM jenkins:latest
-MAINTAINER Gonzalo Benítez
 
 USER root
 RUN mkdir /var/log/jenkins

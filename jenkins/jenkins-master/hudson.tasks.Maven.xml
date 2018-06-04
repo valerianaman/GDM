@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.tasks.Maven_-DescriptorImpl>
+  <installations>
+    <hudson.tasks.Maven_-MavenInstallation>
+      <name>Maven_3.5.3</name>
+      <home>/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.5.3</home>
+      <properties/>
+    </hudson.tasks.Maven_-MavenInstallation>
+  </installations>
+</hudson.tasks.Maven_-DescriptorImpl>
