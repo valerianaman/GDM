@@ -9,7 +9,8 @@ FROM jenkins:latest
 
 #USER jenkins
 
-#ENV JAVA_OPTS="-Xmx8192m -Djenkins.install.runSetupWizard=false"
+ENV JAVA_OPTS="-Xmx1024m" 
+# -Djenkins.install.runSetupWizard=false"
 #ENV JENKINS_OPTS="--logfile=/var/log/jenkins/jenkins.log --webroot=/var/cache/jenkins/war"
 
 #installing plugins
