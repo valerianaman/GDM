@@ -21,7 +21,6 @@ COPY security.groovy /usr/share/jenkins/ref/init.groovy.d/security.groovy
 
 #adding Maven installations
 COPY hudson.tasks.Maven.xml /usr/share/jenkins/ref/hudson.tasks.Maven.xml
-#COPY jenkins.mvn.GlobalMavenConfig.xml /usr/share/jenkins/ref/jenkins.mvn.GlobalMavenConfig.xml
 
 #adding Gradle installations
 COPY hudson.plugins.gradle.Gradle.xml /usr/share/jenkins/ref/hudson.plugins.gradle.Gradle.xml
