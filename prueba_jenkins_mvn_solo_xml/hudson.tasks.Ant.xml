@@ -2,7 +2,7 @@
 <hudson.tasks.Ant_-DescriptorImpl plugin="ant@1.8">
   <installations>
     <hudson.tasks.Ant_-AntInstallation>
-      <name>ant_1.10.4</name>
+      <name>Ant_1.10.4</name>
       <home></home>
       <properties>
         <hudson.tools.InstallSourceProperty>

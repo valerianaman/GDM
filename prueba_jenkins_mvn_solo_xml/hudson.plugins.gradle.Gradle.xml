@@ -2,7 +2,7 @@
 <hudson.plugins.gradle.Gradle_-DescriptorImpl plugin="gradle@1.29">
   <installations>
     <hudson.plugins.gradle.GradleInstallation>
-      <name>gradle_481</name>
+      <name>Gradle_4.8.1</name>
       <home></home>
       <properties>
         <hudson.tools.InstallSourceProperty>
@@ -16,7 +16,7 @@
       <gradleHome></gradleHome>
     </hudson.plugins.gradle.GradleInstallation>
     <hudson.plugins.gradle.GradleInstallation>
-      <name>gradle_3.5</name>
+      <name>Gradle_3.5</name>
       <home></home>
       <properties>
         <hudson.tools.InstallSourceProperty>
@@ -30,7 +30,7 @@
       <gradleHome></gradleHome>
     </hudson.plugins.gradle.GradleInstallation>
     <hudson.plugins.gradle.GradleInstallation>
-      <name>gradle_2.14.1</name>
+      <name>Gradle_2.14.1</name>
       <home></home>
       <properties>
         <hudson.tools.InstallSourceProperty>
@@ -44,7 +44,7 @@
       <gradleHome></gradleHome>
     </hudson.plugins.gradle.GradleInstallation>
     <hudson.plugins.gradle.GradleInstallation>
-      <name>gradle_1.12</name>
+      <name>Gradle_1.12</name>
       <home></home>
       <properties>
         <hudson.tools.InstallSourceProperty>
