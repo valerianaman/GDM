@@ -2,9 +2,40 @@
 <hudson.tasks.Maven_-DescriptorImpl>
   <installations>
     <hudson.tasks.Maven_-MavenInstallation>
-      <name>Maven_3.5.3</name>
-      <home>/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.5.3</home>
-      <properties/>
+      <name>Maven_3.5.4</name>
+      <properties>
+        <hudson.tools.InstallSourceProperty>
+          <installers>
+            <hudson.tasks.Maven_-MavenInstaller>
+              <id>3.5.4</id>
+            </hudson.tasks.Maven_-MavenInstaller>
+          </installers>
+        </hudson.tools.InstallSourceProperty>
+      </properties>
+    </hudson.tasks.Maven_-MavenInstallation>
+    <hudson.tasks.Maven_-MavenInstallation>
+      <name>Maven_2.2.1</name>
+      <properties>
+        <hudson.tools.InstallSourceProperty>
+          <installers>
+            <hudson.tasks.Maven_-MavenInstaller>
+              <id>2.2.1</id>
+            </hudson.tasks.Maven_-MavenInstaller>
+          </installers>
+        </hudson.tools.InstallSourceProperty>
+      </properties>
+    </hudson.tasks.Maven_-MavenInstallation>
+    <hudson.tasks.Maven_-MavenInstallation>
+      <name>Maven_1.1</name>
+      <properties>
+        <hudson.tools.InstallSourceProperty>
+          <installers>
+            <hudson.tasks.Maven_-MavenInstaller>
+              <id>1.1</id>
+            </hudson.tasks.Maven_-MavenInstaller>
+          </installers>
+        </hudson.tools.InstallSourceProperty>
+      </properties>
     </hudson.tasks.Maven_-MavenInstallation>
   </installations>
 </hudson.tasks.Maven_-DescriptorImpl>

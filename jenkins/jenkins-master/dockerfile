@@ -9,7 +9,7 @@ RUN chown -R  jenkins:jenkins /var/cache/jenkins
 
 USER jenkins
 
-ENV JAVA_OPTS="-Xmx8192m -Djenkins.install.runSetupWizard=false"
+ENV JAVA_OPTS="-Xmx4096m -Djenkins.install.runSetupWizard=false"
 ENV JENKINS_OPTS="--logfile=/var/log/jenkins/jenkins.log --webroot=/var/cache/jenkins/war"
 
 #installing plugins
@@ -19,7 +19,13 @@ RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 #applying security
 COPY security.groovy /usr/share/jenkins/ref/init.groovy.d/security.groovy
 
-#adding Maven 353
+#adding Maven installations
 COPY hudson.tasks.Maven.xml /usr/share/jenkins/ref/hudson.tasks.Maven.xml
-COPY jenkins.mvn.GlobalMavenConfig.xml /usr/share/jenkins/ref/jenkins.mvn.GlobalMavenConfig.xml
-COPY tools /usr/share/jenkins/ref/tools
+#COPY jenkins.mvn.GlobalMavenConfig.xml /usr/share/jenkins/ref/jenkins.mvn.GlobalMavenConfig.xml
+
+#adding Gradle installations
+COPY hudson.plugins.gradle.Gradle.xml /usr/share/jenkins/ref/hudson.plugins.gradle.Gradle.xml
+
+#adding Ant installations
+COPY hudson.tasks.Ant.xml /usr/share/jenkins/ref/hudson.tasks.Ant.xml
+

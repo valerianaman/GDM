@@ -1,4 +1,4 @@
-docker stop jenkins-master
-docker rm jenkins-master
-docker stop jenkins-data
-docker rm jenkins-data
+docker stop myjenkinsmaster
+docker rm myjenkinsmaster
+docker stop myjenkinsdata
+docker rm myjenkinsdata
