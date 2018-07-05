@@ -13,7 +13,7 @@
         </hudson.tools.InstallSourceProperty>
       </properties>
     </hudson.tasks.Maven_-MavenInstallation>
-     <hudson.tasks.Maven_-MavenInstallation>
+    <hudson.tasks.Maven_-MavenInstallation>
       <name>Maven_2.2.1</name>
       <properties>
         <hudson.tools.InstallSourceProperty>
@@ -25,8 +25,7 @@
         </hudson.tools.InstallSourceProperty>
       </properties>
     </hudson.tasks.Maven_-MavenInstallation>
-  </installations>
-  <hudson.tasks.Maven_-MavenInstallation>
+    <hudson.tasks.Maven_-MavenInstallation>
       <name>Maven_1.1</name>
       <properties>
         <hudson.tools.InstallSourceProperty>

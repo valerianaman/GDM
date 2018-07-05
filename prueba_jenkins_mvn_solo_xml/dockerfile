@@ -20,7 +20,14 @@ ENV JAVA_OPTS="-Xmx1024m"
 #applying security
 #COPY security.groovy /usr/share/jenkins/ref/init.groovy.d/security.groovy
 
-#adding Maven 353
+#adding Maven installations
 COPY hudson.tasks.Maven.xml /usr/share/jenkins/ref/hudson.tasks.Maven.xml
 COPY jenkins.mvn.GlobalMavenConfig.xml /usr/share/jenkins/ref/jenkins.mvn.GlobalMavenConfig.xml
-#COPY tools /usr/share/jenkins/ref/tools
+
+#adding Gradle installations
+COPY hudson.plugins.gradle.Gradle.xml /usr/share/jenkins/ref/hudson.plugins.gradle.Gradle.xml
+
+#adding Ant installations
+COPY hudson.tasks.Ant.xml /usr/share/jenkins/ref/hudson.tasks.Ant.xml
+
+
