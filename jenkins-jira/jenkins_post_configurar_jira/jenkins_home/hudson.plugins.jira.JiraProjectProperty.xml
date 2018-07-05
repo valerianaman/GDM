@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.jira.JiraProjectProperty_-DescriptorImpl plugin="jira@3.0.0">
+  <sites>
+    <hudson.plugins.jira.JiraSite>
+      <url>https://steps.everis.com/jiraproy/</url>
+      <useHTTPAuth>false</useHTTPAuth>
+      <userName>gbenitez</userName>
+      <password>{AQAAABAAAAAQLAuyPGk8NJ4WZxR7+6hhBZ72o04+nTTtLWFdjGrfPl8=}</password>
+      <supportsWikiStyleComment>false</supportsWikiStyleComment>
+      <recordScmChanges>false</recordScmChanges>
+      <disableChangelogAnnotations>false</disableChangelogAnnotations>
+      <updateJiraIssueForAllStatus>false</updateJiraIssueForAllStatus>
+      <timeout>10</timeout>
+      <dateTimePattern></dateTimePattern>
+      <appendChangeTimestamp>false</appendChangeTimestamp>
+    </hudson.plugins.jira.JiraSite>
+  </sites>
+</hudson.plugins.jira.JiraProjectProperty_-DescriptorImpl>

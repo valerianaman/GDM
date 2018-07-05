@@ -28,3 +28,7 @@ COPY hudson.plugins.gradle.Gradle.xml /usr/share/jenkins/ref/hudson.plugins.grad
 #adding Ant installations
 COPY hudson.tasks.Ant.xml /usr/share/jenkins/ref/hudson.tasks.Ant.xml
 
+#adding JIRA configuration
+#COPY hudson.plugins.jira.JiraProjectProperty.xml /usr/share/jenkins/ref/hudson.plugins.jira.JiraProjectProperty.xml
+#COPY scriptApproval.xml /usr/share/jenkins/ref/scriptApproval.xml
+#COPY secret.key /usr/share/jenkins/ref/secret.key
