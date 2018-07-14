@@ -49,6 +49,7 @@ pipeline-stage-tags-metadata
 pipeline-stage-view
 plain-credentials
 resource-disposer
+sonar
 scm-api
 script-security
 ssh-credentials

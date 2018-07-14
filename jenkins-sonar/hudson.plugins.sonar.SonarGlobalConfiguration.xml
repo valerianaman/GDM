@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.sonar.SonarGlobalConfiguration plugin="sonar@2.6.1">
+  <installations>
+    <hudson.plugins.sonar.SonarInstallation>
+      <name>SonarSteps</name>
+      <serverUrl>https://steps.everis.com/sonarqube6</serverUrl>
+      <serverVersion>5.3</serverVersion>
+      <serverAuthenticationToken>8be40caed75dcd5806cb61461362240c18dc7221</serverAuthenticationToken>
+      <mojoVersion></mojoVersion>
+      <databaseUrl></databaseUrl>
+      <databaseLogin></databaseLogin>
+      <additionalProperties></additionalProperties>
+      <additionalAnalysisProperties></additionalAnalysisProperties>
+      <triggers>
+        <skipScmCause>false</skipScmCause>
+        <skipUpstreamCause>false</skipUpstreamCause>
+        <envVar></envVar>
+      </triggers>
+      <sonarLogin></sonarLogin>
+      <databaseSecret>{AQAAABAAAAAQUiaRZ/Z+Z/+5EAyiEJvaoRSdVGEO34A0DPkUZDv+AUc=}</databaseSecret>
+      <sonarSecret>{AQAAABAAAAAQr6bjlpak6MClZzSnStwg3GYIrDzzivtDtYJf590Ixk4=}</sonarSecret>
+    </hudson.plugins.sonar.SonarInstallation>
+  </installations>
+  <buildWrapperEnabled>false</buildWrapperEnabled>
+</hudson.plugins.sonar.SonarGlobalConfiguration>

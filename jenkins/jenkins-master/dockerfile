@@ -29,9 +29,15 @@ COPY hudson.plugins.gradle.Gradle.xml /usr/share/jenkins/ref/hudson.plugins.grad
 COPY hudson.tasks.Ant.xml /usr/share/jenkins/ref/hudson.tasks.Ant.xml
 
 #adding JIRA configuration
-COPY hudson.plugins.jira.JiraProjectProperty.xml /usr/share/jenkins/ref/hudson.plugins.jira.JiraProjectProperty.xml
-COPY scriptApproval.xml /usr/share/jenkins/ref/scriptApproval.xml
-COPY identity.key.enc /usr/share/jenkins/ref/identity.key.enc
-COPY hudson.plugins.timestamper.TimestamperConfig.xml /usr/share/jenkins/ref/hudson.plugins.timestamper.TimestamperConfig
-COPY config.xml /usr/share/jenkins/ref/config.xml 
+#COPY hudson.plugins.jira.JiraProjectProperty.xml /usr/share/jenkins/ref/hudson.plugins.jira.JiraProjectProperty.xml
+#COPY scriptApproval.xml /usr/share/jenkins/ref/scriptApproval.xml
+#COPY identity.key.enc /usr/share/jenkins/ref/identity.key.enc
+#COPY config.xml /usr/share/jenkins/ref/config.xml 
+#COPY hudson.plugins.timestamper.TimestamperConfig.xml /usr/share/jenkins/ref/hudson.plugins.timestamper.TimestamperConfig
+
+#adding sonarQube steps configuration
+COPY hudson.plugins.sonar.SonarGlobalConfiguration.xml /usr/share/jenkins/ref/hudson.plugins.sonar.SonarGlobalConfiguration.xml
+
+#adding SonarScanner installation
+COPY hudson.plugins.sonar.SonarRunnerInstallation.xml /usr/share/jenkins/ref/hudson.plugins.sonar.SonarRunnerInstallation.xml
 
